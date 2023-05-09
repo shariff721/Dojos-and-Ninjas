@@ -26,3 +26,5 @@ def show_one_dojo(id):
     }
     return render_template("show_dojo.html", one_dojo = dojo.Dojo.get_dojo_with_ninjas(data)) 
 
+
+
